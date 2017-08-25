@@ -10,11 +10,25 @@ html, body {
   height: 100%;
 }
 
-.logo{
-  margin: auto;
-  display: block;
+.content__logo {
+  position: relative;
+  width: 100%;
 }
 
-.github iframe {
+.content__logo__image {
+  margin: auto;
+  display: block;
+  position: relative;
+  bottom: 40px;
+}
+
+.content__github {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.content__github iframe {
   padding: 70px 18px;
 }
